@@ -1,0 +1,47 @@
+.webcam-btn {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 80vh;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 50%;
+  background-color: #ff0000;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  opacity: 0.5;
+  outline: none;
+}
+
+@media screen and (max-width: 320px) {
+  .webcam-btn {
+    bottom: 30%;
+  }
+
+}
+@media screen and (min-width: 374px) {
+  .webcam-btn {
+    bottom: 26%;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .webcam-btn {
+    bottom: 30%;
+  }
+
+}
+
+
+.webcam-btn:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 440px) {
+  video {
+    width: 200;
+    height: 100;
+  }
+}
